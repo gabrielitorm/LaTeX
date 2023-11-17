@@ -1,0 +1,84 @@
+
+% Exemplo apresentação beamer
+% By: Gabrielito Menezes
+% Informações sobre o documento:
+
+\documentclass{beamer}        % Definir a classe do documento
+
+% Pacotes que serão utilizados:
+\usepackage[utf8]{inputenc}   % Codificação dos caracteres de entrada
+\usepackage[brazilian]{babel} % Idioma em pt-br
+
+% Definir estilo:
+\usetheme{Madrid}			 	% Estilo da apresentação (tema)
+
+% Informações:  
+\title{Título da Apresentação}  % Título da apresentação
+\subtitle{Subtítulo} 			% Subtítulo
+\author{Autor}				 	% Nome do autor
+\institute{Nome da instituição} % Inserir a isntistuição 
+\date{\today} % Inserir data de hoje! Para remover a data basta "\date{}"
+
+\begin{document}
+	
+	% A primeiro slide (Apresentação)
+	\begin{frame}
+		\titlepage 
+	\end{frame}
+	
+		
+	% A estrutura do frame
+	\begin{frame}{Estrutura da apresentação}
+		\tableofcontents
+	\end{frame}
+
+
+% Listas de frames (slides)
+\section{Lista não ordenada no Beamer}
+\begin{frame}{Listas no Beamer}
+	
+	Esta é uma lista não ordenada:
+	\begin{itemize}
+		\item Item 1
+		\item Item 2
+		\item Item 3
+	\end{itemize}
+	
+\end{frame}
+
+% Slide lista não ordenada 2
+\begin{frame}{Listas no Beamer}
+	
+	\begin{itemize}
+		\item Item 1
+		\item Item 2
+		\item Item 3
+	\end{itemize}
+	
+\end{frame}
+
+% Slide Lista ordenada 1
+\section{Lista ordenada Beamer}
+\begin{frame}{Lista ordenada Beamer}
+	
+		Esta é uma lista ordenada:
+	\begin{enumerate}
+		\item Item 1
+		\item Item 2
+		\item Item 3
+	\end{enumerate}
+
+\end{frame} 
+
+% Slide Lista ordenada 2
+\begin{frame}{Lista ordenada Beamer}
+	
+	\begin{enumerate}
+		\item Item 1
+		\item Item 2
+		\item Item 3
+	\end{enumerate}
+	
+\end{frame} 
+
+\end{document}
